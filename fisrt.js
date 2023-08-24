@@ -1,3 +1,6 @@
-console.log("hello Ghada")
-//yo there
-/** yo there */
+
+const product = {
+    name:'socks',
+    price:1090
+};
+console.log(product.name)
