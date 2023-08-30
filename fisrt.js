@@ -1,10 +1,6 @@
-function sum(x,y){
-    let a=x
-    let b =y
-    console.log(a+b)
+let sum =  (x,y) =>
+{
+    return x+y
 }
 
-
-sum(2,3)
-sum(5,7)
-sum(6,9)
+console.log(sum(5,6))
