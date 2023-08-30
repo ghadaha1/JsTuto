@@ -1,6 +1,9 @@
-let sum =  (x,y) =>
-{
-    return x+y
-}
 
-console.log(sum(5,6))
+let profil ={
+    firsttName : "Ghada",
+    age : 25,
+};
+
+
+
+console.log(profil)
