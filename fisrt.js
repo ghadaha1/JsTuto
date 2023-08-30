@@ -1,6 +1,10 @@
+function sum(x,y){
+    let a=x
+    let b =y
+    console.log(a+b)
+}
 
-const product = {
-    name:'socks',
-    price:1090
-};
-console.log(product.name)
+
+sum(2,3)
+sum(5,7)
+sum(6,9)
