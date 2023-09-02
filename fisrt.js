@@ -1,6 +1,8 @@
 try{
-    console.logg("hello")
+ let x=0;
+ val = x/0
+ console.log(val);
 }
 catch(err){
-    console.log("it didnt go ")
+    console.log(err)
 }
