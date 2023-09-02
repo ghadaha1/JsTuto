@@ -1,8 +1,12 @@
-try{
- let x=0;
- val = x/0
- console.log(val);
-}
-catch(err){
-    console.log(err)
-}
+//Json JavaScript Object Notation
+
+//parse :string to object
+//stringify :object to string
+
+profile=
+    {
+        firstName :"ghada",
+        lastName :"Hamoudi"
+    }
+    console.log(JSON.stringify(profile))
+
