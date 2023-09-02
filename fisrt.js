@@ -1,9 +1,18 @@
 var mypromise = new Promise((resolve,reject)=>{
 
     setTimeout(()=>{
-        console.log("Ghada")
-        resolve("done")
-    },2000)
+        resolve(10)
+    },5000)
 })
 
-mypromise.then((msg)=>console.log(msg)).catch((err)=>console.log(err))
+
+
+async function myf(){
+    let val =await mypromise.then((msg)=>{return msg})
+
+    console.log("result="+val)
+    console.log("Ghada")
+
+}
+
+myf();
