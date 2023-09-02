@@ -1,6 +1,6 @@
 try{
-    console.log("hello")
+    console.logg("hello")
 }
 catch(err){
-    console.log("it didnt ma= ")
+    console.log("it didnt go ")
 }
