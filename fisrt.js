@@ -1,14 +1,9 @@
-class Car{
+var mypromise = new Promise((resolve,reject)=>{
 
-    constructor(color,comp,mod) {
-        this.color= color;
-        this.comp = comp;
-        this.mod = mod;
-    }
-    print(){
-        console.log(this.color+' '+this.mod+' '+this.comp)
-}
-}
-var c1 = new Car("red","ford","mustung")
-console.log(c1.color)
-console.log(c1.print())
+    setTimeout(()=>{
+        console.log("Ghada")
+        resolve("done")
+    },2000)
+})
+
+mypromise.then((msg)=>console.log(msg)).catch((err)=>console.log(err))
