@@ -1,9 +1,10 @@
+class Car{
 
-let profil ={
-    firsttName : "Ghada",
-    age : 25,
-};
-
-
-
-console.log(profil)
+    constructor(color,comp,mod) {
+        this.color= color;
+        this.comp = comp;
+        this.mod = mod;
+    }
+}
+var c1 = new Car("red","ford","mustung")
+console.log(c1.color)
